@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section class="section" id="section1">
+            <h1>장 건강 지수</h1>
+            <div class="score">
+                <p>내 장 종합 점수</p>
+                <p id="total-score" class="large-text"></p>
+            </div>
+            <div class="canvas-container">
+                <canvas id="chart1"></canvas>
+            </div>
+        </section>
+        <section class="section" id="section2">
+            <h2>장내 미생물 분포</h2>
+            <div class="canvas-container">
+                <canvas id="chart2"></canvas>
+            </div>
+            <div class="canvas-container">
+                <canvas id="pie-chart"></canvas>
+            </div>
+        </section>
+        <section class="section" id="section3">
+            <h2>질병 유험도</h2>
+            <div class="increase">
+                <p>전년 대비</p>
+                <p id="increase-percentage" class="large-text"></p>
+            </div>
+            <div id="keywords"></div>
+        </section>
+        <section class="section" id="section4">
+            <h2>대표적 질병 위험도 분석</h2>
+            <div class="disease-risks" id="disease-risks"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

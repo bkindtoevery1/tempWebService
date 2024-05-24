@@ -1,0 +1,32 @@
+{
+    "totalScore": 75,
+    "increasePercentage": 123,
+    "keywords": ["심혈관 질환", "제 2형 당뇨 위험", "대장암 관심"],
+    "diseaseRisks": [
+        {"name": "심혈관 질환", "percentage": 76},
+        {"name": "제 2형 당뇨병", "percentage": 45},
+        {"name": "대장암", "percentage": 25}
+    ],
+    "chart1Data": {
+        "labels": ["2022", "2023", "2024"],
+        "datasets": [
+            {"label": "유익균", "data": [43, 32, 31], "borderColor": "blue", "fill": false},
+            {"label": "유해균", "data": [25, 32, 31], "borderColor": "red", "fill": false},
+            {"label": "중립균", "data": [32, 37, 32], "borderColor": "green", "fill": false}
+        ]
+    },
+    "chart2Data": {
+        "labels": ["2022", "2023", "2024"],
+        "datasets": [
+            {"label": "중립균", "data": [25, 24, 22], "backgroundColor": "pink"},
+            {"label": "유익균", "data": [32, 39, 31], "backgroundColor": "cyan"},
+            {"label": "유해균", "data": [43, 37, 47], "backgroundColor": "blue"}
+        ]
+    },
+    "pieChartData": {
+        "labels": ["중립균", "유익균", "유해균"],
+        "values": [22, 47, 31],
+        "colors": ["pink", "cyan", "blue"]
+    }
+}
+

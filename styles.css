@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.section {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section h1, .section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.large-text {
+    font-size: 3em;
+    color: #007bff;
+}
+
+.score, .increase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#keywords, .disease-risks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.canvas-container {
+    width: 100%;
+    max-width: 600px;
+    height: 400px; /* Fixed height for the canvas container */
+    margin: 20px auto;
+}
+
+canvas {
+    width: 100%;
+    height: 100%; /* Ensure the canvas fills the container */
+}
+
+.disease-risk {
+    text-align: center;
+}
+
+.disease-risk p {
+    margin: 5px 0;
+}
+
